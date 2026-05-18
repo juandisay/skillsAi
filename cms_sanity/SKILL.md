@@ -13,6 +13,12 @@ A comprehensive skill package to integrate **Sanity.io** headless CMS into an ex
 - Access to a Sanity.io project (account, dataset, project ID, and token)
 - `npm` or `yarn` or `pnpm` available in the terminal
 
+## Remote Execution (Online Loading)
+
+This skill can be loaded directly from a remote URL (e.g., a GitHub Raw link). If you (the AI) are reading this file from a URL instead of a local directory:
+1. Treat the base URL of this `SKILL.md` file as the root directory for the skill.
+2. For all file references in the Execution Plan (such as `scripts/setup.sh` or `assets/sanity.config.ts`), fetch them from the corresponding raw URLs relative to this file before applying them.
+
 ## System Prompt (for AI assistants)
 
 ```
