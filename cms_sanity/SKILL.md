@@ -1,4 +1,7 @@
-// cms_sanity/SKILL.md
+---
+name: cms_sanity
+description: A comprehensive skill package to integrate Sanity.io headless CMS into an existing Next.js application using the App Router.
+---
 
 # Sanity.io Integration Skill Package
 
